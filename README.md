@@ -1,7 +1,7 @@
 # portfolio
 
 ## Tell us about your process, challenges you faced during development and how you overcame those challenges. What have you learned by creating your web portfolio?
-
+During the process, I found out that using a CSS library and framework is useful for building a website. However, when it came to customizing certain details such as padding and positioning, there were many restrictions in modifying them. I attempted to customize them using CSS alone, but found it difficult without utilizing SASS. After creating my web portfolio, I gained a better understanding of the relationship between HTML and CSS, as well as the importance of the link order of CSS for optimizing web page performance. 
 
 ## Used assets and resources
 1. Fonts: [Google Fonts](https://fonts.googleapis.com)
