@@ -172,20 +172,10 @@ footer {
     resize: none;
 }
 
-@media only screen and (min-width: 576px) {
-    .banner img {
-        left: 10%;
-    }
-
-    .banner .text {
-        left: 5%;
-    }
-
-    .recent img {
-        width: 100%;
-    }
+.contact label {
+    padding: 0;
+    margin: 0;
 }
-
 /* --------------------------about-------------------------- */
 
 .about button {
@@ -203,6 +193,21 @@ footer {
 
 .contact button {
     margin-top: 1em;
+}
+
+
+@media only screen and (min-width: 576px) {
+    .banner img {
+        left: 10%;
+    }
+
+    .banner .text {
+        left: 5%;
+    }
+
+    .recent img {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
