@@ -107,12 +107,12 @@ h4 span::after {
 }
 
 .btn-primary {
-    background-color: var(--btn-color);
-    border: none;
-    border-radius: 0%;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 0.3em;
-    padding: 13px 27px 9px 27px;
+    background-color: var(--btn-color) !important;
+    border: none !important;
+    border-radius: 0% !important;
+    font-family: 'Bebas Neue', cursive !important;
+    letter-spacing: 0.3em !important;
+    padding: 13px 27px 9px 27px !important;
 }
 
 .btn-primarys:active {
@@ -120,11 +120,11 @@ h4 span::after {
 }
 
 .btn-primary:focus {
-    background-color: var(--decor-color-orange);
+    background-color: var(--decor-color-orange) !important;
 }
 
 .btn-primary:hover {
-    background-color: var(--decor-color-orange);
+    background-color: var(--decor-color-orange) !important;
 }
 
 .nav-link {
@@ -141,6 +141,7 @@ h4 span::after {
 
 footer {
     background-color: #282828;
+    color: white;
 }
 
 /* --------------------------contact-------------------------- */
@@ -172,11 +173,11 @@ footer {
 /* --------------------------about-------------------------- */
 
 .about button {
-    width: 132px;
+    width: 132px !important;
 }
 
 .about a {
-    width: 132px;
+    width: 132px !important;
 }
 
 .about .text {
@@ -188,11 +189,11 @@ footer {
 
     /* alternative for the gap */
     .row {
-        gap: 4%;
+        gap: 4% !important;
     }
 
     .col-md-6 {
-        width: 48%;
+        width: 48% !important;
     }
 
     .about a {
